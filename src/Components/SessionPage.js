@@ -10,12 +10,13 @@ const useStyles = () => ({
     justifyContent: 'center',
     height: '100vh',
     textAlign: 'center',
-    padding: '20px',
+    padding: '20px', 
   },
   textDiv: {
     fontSize: '24px',
     marginBottom: '20px',
     fontWeight: 'bold',
+    color: 'black', 
   },
   buttonDiv: {
     marginTop: '10px',
@@ -26,7 +27,7 @@ const useStyles = () => ({
     backgroundColor: '#0070f3',
     color: 'white',
     border: 'none',
-    borderRadius: '20px',
+    borderRadius: '20px', 
     cursor: 'pointer',
     transition: 'background-color 0.3s ease',
   },
@@ -42,7 +43,8 @@ const SessionPage = () => {
   return (
     <div style={classes.container}>
       <div style={classes.textDiv}>
-        Worried about your dentistry career !? <br/><br/>Book a session now for your career clarity
+        Worried about your dentistry career !? <br/><br/>
+        Book a session now for your career clarity
       </div>
       <div style={classes.buttonDiv}>
         <button
